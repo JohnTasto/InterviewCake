@@ -1,0 +1,16 @@
+{
+  "name": "interviewcake",
+  "version": "0.0.1",
+  "description": "My solutions for Interview Cake problems",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha \"src/**/*.spec.js\"",
+    "test:watch": "npm run test -- --watch"
+  },
+  "author": "John Tasto <john@tasto.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
