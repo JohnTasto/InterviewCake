@@ -4,12 +4,14 @@
   "description": "My solutions for Interview Cake problems",
   "main": "index.js",
   "scripts": {
-    "test": "mocha \"src/**/*.spec.js\"",
+    "test": "mocha --require babel-register \"src/**/*.spec.js\"",
     "test:watch": "npm run test -- --watch"
   },
   "author": "John Tasto <john@tasto.net>",
   "license": "MIT",
   "devDependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "babel-register": "^6.14.0",
     "chai": "^3.5.0",
     "mocha": "^3.0.2"
   }
